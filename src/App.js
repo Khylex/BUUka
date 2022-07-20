@@ -27,14 +27,14 @@ function App() {
           <Route path = "/" element={<Home logout={logout} togglelogout={togglelogout}/>} />
           <Route path = "/signup" element={<Signup/>} />
           <Route path ="/login" element={<Login/>}/>
-          <Route path="/provider/:id" element={<SingleProvider/>} />
+          {/* <Route path="/provider/:id" element={<SingleProvider/>} />
           <Route path="/search/:word" element={<SearchResult/>}/>
           <Route path="/buygiftcard" element={<AllGiftCards/>}/>
           <Route path ="/buygiftcard/:id" element={<SingleGiftcard/>}/>
           <Route path="/reviews" element={<Allreviews/>}/>
           <Route path="/pending" element={<MyBookings logout={logout} togglelogout={togglelogout}/>}/>
           <Route path="/wallet" element={<Wallet logout={logout} togglelogout={togglelogout}/>}/>
-          <Route path="/settings" element={<Settings logout={logout} togglelogout={togglelogout}/>}/>
+          <Route path="/settings" element={<Settings logout={logout} togglelogout={togglelogout}/>}/> */}
         </Routes>
       </React.Fragment>
     </Router>
