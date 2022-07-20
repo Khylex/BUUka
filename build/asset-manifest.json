@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dfafbfc0.chunk.css",
+    "main.js": "/static/js/main.e54ab44c.chunk.js",
+    "main.js.map": "/static/js/main.e54ab44c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3e0bf3ef.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3e0bf3ef.js.map",
+    "static/css/2.28fb3072.chunk.css": "/static/css/2.28fb3072.chunk.css",
+    "static/js/2.f2d63481.chunk.js": "/static/js/2.f2d63481.chunk.js",
+    "static/js/2.f2d63481.chunk.js.map": "/static/js/2.f2d63481.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.28fb3072.chunk.css.map": "/static/css/2.28fb3072.chunk.css.map",
+    "static/css/main.dfafbfc0.chunk.css.map": "/static/css/main.dfafbfc0.chunk.css.map",
+    "static/js/2.f2d63481.chunk.js.LICENSE.txt": "/static/js/2.f2d63481.chunk.js.LICENSE.txt",
+    "static/media/styles.module.css": "/static/media/Banner_bg.b2be63b2.png",
+    "static/media/styles.css": "/static/media/revicons.e8746a62.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e0bf3ef.js",
+    "static/css/2.28fb3072.chunk.css",
+    "static/js/2.f2d63481.chunk.js",
+    "static/css/main.dfafbfc0.chunk.css",
+    "static/js/main.e54ab44c.chunk.js"
+  ]
+}
