@@ -1,0 +1,372 @@
+.filter {
+  background: #fff;
+}
+
+.filter .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2%;
+}
+
+.filter .inner .imgCon {
+  height: 28px;
+}
+
+.filter .inner .imgCon img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.filter .inner .filterer {
+  display: none;
+}
+
+.filter .inner .filterr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60%;
+}
+
+.filter .inner .filterr .filterInput {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  width: 68%;
+}
+
+.filter .inner .filterr .filterInput input {
+  width: 100%;
+  border-radius: 15px;
+  background: #F1F1F1;
+  border: none;
+  outline: none;
+  padding: 2.5%;
+  font-size: 1.125rem;
+}
+
+.filter .inner .filterr .filterInput input::-webkit-input-placeholder {
+  font-size: 1.125rem;
+  color: #9F9F9F;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.filter .inner .filterr .filterInput input:-ms-input-placeholder {
+  font-size: 1.125rem;
+  color: #9F9F9F;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.filter .inner .filterr .filterInput input::-ms-input-placeholder {
+  font-size: 1.125rem;
+  color: #9F9F9F;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.filter .inner .filterr .filterInput input::placeholder {
+  font-size: 1.125rem;
+  color: #9F9F9F;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.filter .inner .filterr .filterInput input:focus {
+  border: 1px solid #3423A6;
+  -webkit-transition: all .5s ease-in;
+  transition: all .5s ease-in;
+}
+
+.filter .inner .filterr .filterInput select {
+  border-radius: 15px;
+  background: #F1F1F1;
+  border: none;
+  outline: none;
+  height: 100%;
+  padding: 5%;
+  font-size: 1.125rem;
+  color: #9F9F9F;
+}
+
+.filter .inner .filterr .filterInput select option {
+  font-size: 1.125rem;
+  color: #9F9F9F;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.filter .inner .filterr .filterInput select:focus {
+  border: 1px solid #3423A6;
+  -webkit-transition: all .5s ease-in;
+  transition: all .5s ease-in;
+}
+
+.filter .inner .filterr .filterSelect {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  width: 30%;
+}
+
+.filter .inner .filterr .filterSelect select {
+  width: 100%;
+  border-radius: 15px;
+  background: #F1F1F1;
+  border: none;
+  outline: none;
+  height: 100%;
+  padding: 5%;
+  font-size: 1.125rem;
+  color: #9F9F9F;
+}
+
+.filter .inner .filterr .filterSelect select option {
+  font-size: 1.125rem;
+  color: #9F9F9F;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.filter .inner .filterr .filterSelect select:hover {
+  border: 1px solid #3423A6;
+  -webkit-transition: all .5s ease-in;
+  transition: all .5s ease-in;
+}
+
+.filter .inner .mobile {
+  display: none;
+}
+
+.filter .inner .profilepicCon {
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  display: block;
+}
+
+.filter .inner .profilepicCon div {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #CCCCCC;
+  padding: 5%;
+  border-radius: 50%;
+}
+
+.filter .inner .profilepicCon div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .filter .inner .imgCon {
+    height: 20px;
+  }
+  .filter .inner .filterr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 75%;
+  }
+  .filter .inner .filterr .filterInput {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100%;
+    width: 68%;
+  }
+  .filter .inner .filterr .filterInput input {
+    width: 100%;
+    background: #F1F1F1;
+    font-size: 0.8rem;
+  }
+  .filter .inner .filterr .filterInput input::-webkit-input-placeholder {
+    font-size: 0.8rem;
+  }
+  .filter .inner .filterr .filterInput input:-ms-input-placeholder {
+    font-size: 0.8rem;
+  }
+  .filter .inner .filterr .filterInput input::-ms-input-placeholder {
+    font-size: 0.8rem;
+  }
+  .filter .inner .filterr .filterInput input::placeholder {
+    font-size: 0.8rem;
+  }
+  .filter .inner .filterr .filterInput select {
+    border-radius: 15px;
+    height: 100%;
+    padding: 5%;
+    font-size: 0.8rem;
+  }
+  .filter .inner .filterr .filterInput select option {
+    font-size: 0.8rem;
+  }
+  .filter .inner .filterr .filterSelect {
+    height: 100%;
+    width: 30%;
+  }
+  .filter .inner .filterr .filterSelect select {
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+    font-size: 0.8rem;
+  }
+  .filter .inner .filterr .filterSelect select option {
+    font-size: 0.8rem;
+  }
+  .filter .inner .profilepicCon {
+    width: 40px;
+    height: 40px;
+  }
+  .filter .inner .profilepicCon div img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .filter .inner {
+    position: relative;
+  }
+  .filter .inner .imgCon {
+    height: 20px;
+  }
+  .filter .inner .filterr {
+    display: none;
+  }
+  .filter .inner .filterer {
+    display: block;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 120%;
+  }
+  .filter .inner .filterer .filterInput {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  .filter .inner .filterer .filterInput input {
+    width: 100%;
+    border-radius: 15px;
+    background: #F1F1F1;
+    border: none;
+    outline: none;
+    padding: 2.5%;
+    font-size: 0.8rem;
+  }
+  .filter .inner .filterer .filterInput input::-webkit-input-placeholder {
+    font-size: 0.8rem;
+    color: #9F9F9F;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .filter .inner .filterer .filterInput input:-ms-input-placeholder {
+    font-size: 0.8rem;
+    color: #9F9F9F;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .filter .inner .filterer .filterInput input::-ms-input-placeholder {
+    font-size: 0.8rem;
+    color: #9F9F9F;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .filter .inner .filterer .filterInput input::placeholder {
+    font-size: 0.8rem;
+    color: #9F9F9F;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .filter .inner .filterer .filterInput input:focus {
+    border: 1px solid #3423A6;
+    -webkit-transition: all .5s ease-in;
+    transition: all .5s ease-in;
+  }
+  .filter .inner .filterer .filterSelect {
+    width: 100%;
+    margin-top: 5%;
+  }
+  .filter .inner .filterer .filterSelect select {
+    width: 100%;
+    padding: 3%;
+    border-radius: 15px;
+    background: #F1F1F1;
+    border: none;
+    outline: none;
+    font-size: 0.8rem;
+    color: #9F9F9F;
+  }
+  .filter .inner .filterer .filterSelect select option {
+    font-size: 0.8rem;
+    width: 100%;
+    color: #9F9F9F;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .filter .inner .filterer .filterSelect select:hover {
+    border: 1px solid #3423A6;
+    -webkit-transition: all .5s ease-in;
+    transition: all .5s ease-in;
+  }
+  .filter .inner .lastCon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 25%;
+  }
+  .filter .inner .mobile {
+    display: block;
+    margin: 1%;
+  }
+  .filter .inner .mobile button {
+    background: none;
+    border: none;
+    outline: none;
+  }
+  .filter .inner .mobile button .icon {
+    color: #3423A6;
+    font-size: 0.8rem;
+  }
+}
+/*# sourceMappingURL=styles.module.css.map */
