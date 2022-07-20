@@ -5,14 +5,14 @@ import Home from './Components/Home/Home'
 import './App.css';
 import Signup from './Components/Signup/Signup';
 import Login from './Components/Login/Login';
-import SingleProvider from './Components/Providers/SingleProvider';
-import SearchResult from './Components/SearchResult/SearchResult';
-import AllGiftCards from './Components/Giftcard/AllGiftCards';
-import SingleGiftcard from './Components/Giftcard/SingleGiftcard';
-import Allreviews from './Components/Reviews/Allreviews';
-import MyBookings from './Components/MyBookings/MyBookings';
-import Wallet from './Components/Wallet/Wallet';
-import Settings from './Components/Settings/Settings';
+// import SingleProvider from './Components/Providers/SingleProvider';
+// import SearchResult from './Components/SearchResult/SearchResult';
+// import AllGiftCards from './Components/Giftcard/AllGiftCards';
+// import SingleGiftcard from './Components/Giftcard/SingleGiftcard';
+// import Allreviews from './Components/Reviews/Allreviews';
+// import MyBookings from './Components/MyBookings/MyBookings';
+// import Wallet from './Components/Wallet/Wallet';
+// import Settings from './Components/Settings/Settings';
 
 function App() {
   const [logout, setLogout] = useState(false)
