@@ -8,78 +8,57 @@
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: 999999999999999999;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  z-index: 1000000000000000100;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .logout .inner {
   background: #FFFFFF;
   border-radius: 15px;
   padding: 2%;
 }
-
 .logout .inner h3 {
   font-weight: 600;
   font-size: 1.5rem;
   color: #636363;
   text-align: center;
 }
-
 .logout .inner p {
   font-size: 1.125rem;
   color: #636363;
   text-align: center;
 }
-
 .logout .inner div {
   margin-top: 5%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  justify-content: space-evenly;
 }
-
 .logout .inner div button {
   width: 40%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   padding: 4%;
   border-radius: 20px;
   font-size: 0.875rem;
   outline: none;
 }
-
 .logout .inner div .cancel {
   border: 1px solid #F2F2F2;
 }
-
 .logout .inner div .cancel:hover {
   border: 1px solid #3423A6;
   color: #3423A6;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
-
 .logout .inner div .log {
   background: #3423A6;
   color: #fff;
   border: 1px solid #3423A6;
 }
-
 .logout .inner div .log:hover {
   background: none;
   color: #3423A6;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 1024px) {
@@ -100,7 +79,6 @@
     font-size: 0.6rem;
   }
 }
-
 @media screen and (max-width: 768px) {
   .logout .inner {
     background: #FFFFFF;
@@ -121,5 +99,4 @@
   .logout .inner div button {
     font-size: 0.6rem;
   }
-}
-/*# sourceMappingURL=styles.module.css.map */
+}/*# sourceMappingURL=styles.module.css.map */

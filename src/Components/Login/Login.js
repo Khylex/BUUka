@@ -56,7 +56,7 @@ const Login = () => {
                         <hr />
                         <div className={Styles.bottom}>
                             <p>You can also Login In with</p>
-                            <a href="mailto:Info@Harxplus.com"><img src="./images/gmail.png" alt="Gmail Logo" /></a>
+                            <a href="mailto:Info@Harxplus.com"><img src="./Images/gmail.png" alt="Gmail Logo" /></a>
                             <a href="/"><FontAwesomeIcon className= {Styles.icon} icon={faFacebookF} /></a>
                         </div>
                     </form>

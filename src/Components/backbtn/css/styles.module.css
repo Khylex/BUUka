@@ -7,18 +7,15 @@
   margin-top: 2%;
   margin-bottom: 2%;
 }
-
 .backbtn:hover {
   background: #3423A6;
   color: #fff;
   border-radius: 15px;
-  -webkit-transition: all .3s ease-in;
-  transition: all .3s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 @media screen and (max-width: 1024px) {
   .backbtn {
     font-size: 1rem;
   }
-}
-/*# sourceMappingURL=styles.module.css.map */
+}/*# sourceMappingURL=styles.module.css.map */

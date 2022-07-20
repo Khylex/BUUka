@@ -3,6 +3,7 @@
     padding-bottom: 5%;
 
     .inner {
+        overflow: hidden !important;
         .top {
             display: flex;
             justify-content: space-between;
