@@ -10,7 +10,7 @@ const Navbar = ({togglelogout}) => {
     const location = useLocation();
     const boxRef = useRef();
     const [mobileNav, setmobileNav] = useState(false);
-    const [isLoggedIn, setIsLoggedIn] = useState(true);
+    const [isLoggedIn] = useState(true);
     const [box, setBox] = useState(false)
     const isMobile = useMediaQuery({ query: `(max-width: 768px)` });
     const handleMobileNav = () => {
